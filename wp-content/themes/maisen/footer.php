@@ -16,4 +16,17 @@
             </div>
         </footer>
         <!-- /Footer -->
+    </div>
+    <!-- /Page-wrapper -->
 
+    <!-- skrollr読み込み -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/skrollr.min.js"></script>
+    <script type="text/javascript">
+        if( !/Android|webOS|iPhone|iPad/i.test(navigator.userAgent) ) {
+         var s = skrollr.init();
+        }
+    </script>
+    <?php wp_footer(); ?>
+</body>
+
+</html>

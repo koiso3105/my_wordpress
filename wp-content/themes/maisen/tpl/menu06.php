@@ -35,5 +35,5 @@
 <img class="list_menu_options" src="<?php bloginfo('template_url'); ?>/img/curry_large.png" />
 <img class="list_menu_options_sp" src="<?php bloginfo('template_url'); ?>/img/curry_large_sp.png" />
 </div>
-</div>
+</div></div>
 <!-- /Wrapper -->

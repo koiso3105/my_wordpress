@@ -1,3 +1,5 @@
+<!-- Page-wrapper -->
+<div>
 <!-- Header -->
 <header class="floatcontainer">
 <h1 class="dubielplainregular"><a href="index.html">MAISEN HOUSE</a></h1>
@@ -12,3 +14,10 @@
 </ul>
 </header>
 <!-- /Header -->
+<!-- Wrapper -->
+<div class="wrapper">
+<section id="menu_banner">
+<div class="menu_banner_title">
+<img class="sub_menu_title" src="<?php bloginfo('template_url'); ?>/img/sub_menu_title.png">
+</div>
+</section>

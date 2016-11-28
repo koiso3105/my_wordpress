@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
      <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery-3.1.1.slim.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/smoothScroll.js"></script>
     <script type="text/javascript">
         $(function() {
